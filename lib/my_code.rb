@@ -15,6 +15,9 @@ def reduce(array, start = 0)
   total = yield total, array[i] 
   i += 1
   end
-  total
+  if total = 0
+    true
+  else 
+    total
  end 
-  
+end
