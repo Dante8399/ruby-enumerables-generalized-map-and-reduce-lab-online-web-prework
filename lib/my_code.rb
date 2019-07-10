@@ -12,7 +12,7 @@ def reduce(array, start = 0)
   i = 0
   total = start
   while i < array.length do
-   yield total, array[i] 
+  example = yield total, array[i] 
   i += 1
   end
   array
